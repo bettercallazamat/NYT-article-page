@@ -1,0 +1,49 @@
+* {
+    font-family: 'NYTFranklin', helvetica, arial, sans-serif;
+}
+
+@font-face { 
+    font-family: 'NYTFranklin';
+    src: url('./fonts/franklin-normal-600.ttf');
+}
+
+/* Header */
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 15px 2px;
+    background-color: white;
+}
+
+#nav-link {
+    text-decoration: none;
+    font-size: 14.25px;
+    color: black;
+    font-weight: 700;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left-item {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+nav img {
+    width: 200px;
+}
+
+body > div {
+    background-color: blue;
+    height: 2000px;
+}
