@@ -1,25 +1,43 @@
 * {
-    font-family: 'NYTFranklin', helvetica, arial, sans-serif;
+    /* font-family: 'NYTFranklin', helvetica, arial, sans-serif; */
 }
 
 @font-face { 
     font-family: 'NYTFranklin';
-    src: url('./fonts/franklin-normal-600.ttf');
+    src: url('../fonts/franklin-normal-600.ttf');
+}
+
+@font-face { 
+    font-family: 'NYTImperial-500';
+    src: url('../fonts/imperial-normal-500.ttf');
+}
+
+@font-face { 
+    font-family: 'NYTImperial-600';
+    src: url('../fonts/imperial-normal-600.ttf');
+}
+
+@font-face { 
+    font-family: 'Imperial';
+    src: url('../fonts/imperial-regular.ttf');
 }
 
 /* Header */
 
 header {
     position: fixed;
+    top: 0;
     width: 100%;
+    height: 41px;
+    background-color: white;
+    border-bottom: 1px solid #e2e2e2;
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 4px 15px 2px;
-    background-color: white;
+    padding: 0px 15px 0px;
 }
 
 #nav-link {
@@ -37,13 +55,64 @@ nav {
 .nav-left-item {
     margin-right: 20px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 nav img {
     width: 200px;
 }
 
-body > div {
-    background-color: blue;
-    height: 2000px;
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right button {
+    font-size: 10px;
+    letter-spacing: 0.4px;
+    background-color: #567b95;
+    color: white;
+    padding: 8px 12px 8px;
+    border-radius: 3px;
+    border: 1px solid #326891;
+    font-weight: bold;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+/* Article */
+
+article {
+    margin-top: 41px;
+    font-family: 'Imperial', helvetica, arial, sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+
+.article-title-container {
+    width: 600px;
+    margin: auto;
+    padding: 50px 0 20px 0;
+}
+
+article h1 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 40px;
+    height: 96px;
+}
+
+article figure {
+    margin: auto;
+    text-align: center;
+    width: 945px;
+}
+
+article figure .main-img {
+    width: 945px;
+}
+
+article figure figcaption{
+    max-width: 720px;
+    text-align: left;
 }
