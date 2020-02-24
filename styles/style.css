@@ -206,12 +206,41 @@ span.empty-span {
 }
 
 .cta-container {
-    height: 73px;
+    height: 70px;
     margin: 30px 0;
+    position: relative;
+    font-family: 'NYTFranklin', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+#cta-borders {
+    position: absolute;
+    top: 0;
+    left: 270px;
+    border-top: 1px solid rgb(204, 204, 204);
+    border-bottom: 1px solid rgb(204, 204, 204);
+    width: 60px;
+    height: 70px;
 }
 
 .cta-container span {
     display: block;
     text-align: center;
-    font-size: 10px;
+    line-height: 18px;
+}
+
+.cta-container span:first-child {
+    padding-top: 16px;
+}
+
+.cta-container span:last-child {
+    padding-bottom: 16px;
+}
+
+.cta-container a {
+    color: rgb(50, 104, 145);
+    text-decoration: none;
+    cursor: pointer;
 }
