@@ -1,0 +1,14 @@
+* {
+    font-family: helvetica,arial,sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 15px 2px;
+}
+
+nav img {
+    width: 200px;
+}
