@@ -84,7 +84,7 @@ nav img {
 
 article {
     margin-top: 41px;
-    font-family: 'Imperial', helvetica, arial, sans-serif;
+    font-family: 'NYTImperial-500', helvetica, arial, sans-serif;
     font-size: 14px;
     color: #666;
 }
@@ -123,5 +123,36 @@ article figure figcaption{
 }
 
 #first-section {
+    width: 600px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333;
+}
 
+#author {
+    text-decoration: bold;
+    font-size: 16px;
+    font-family: 'NYTFranklin', Helvetica, Arial, sans-serif;
+}
+
+#author a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+#date-and-socials {
+    width: 100%;
+}
+
+#date {
+    display: inline-block;
+}
+
+#socials {
+    float: right;
+}
+
+br {
+    margin-bottom: 20px;
 }
