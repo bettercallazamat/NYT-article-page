@@ -115,6 +115,8 @@ article figure .main-img {
 article figure figcaption{
     max-width: 720px;
     text-align: left;
+    font-size: 15px;
+    line-height: 22px;
 }
 
 #picture-credits {
@@ -124,7 +126,7 @@ article figure figcaption{
 
 #first-section {
     width: 600px;
-    margin: 0 auto;
+    margin: 35px auto 0 auto;
     font-size: 20px;
     line-height: 30px;
     color: #333;
@@ -137,22 +139,79 @@ article figure figcaption{
 }
 
 #author a {
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px solid gray;
     color: inherit;
 }
 
 #date-and-socials {
     width: 100%;
+    margin: 15px 0  15px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 #date {
-    display: inline-block;
+    font-size: 14px;
 }
 
 #socials {
-    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
 }
 
-br {
-    margin-bottom: 20px;
+#socials i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    cursor: pointer; 
+}
+
+#socials i.round {
+    border-radius: 50%;
+    background-color: #eee;
+    width: 25px;
+    height: 25px;
+}
+
+#socials i.round:hover {
+    background-color: white;
+    border: 1px solid #eee;
+}
+
+#socials i.big-icon {
+    width: 25px;
+    height: 30px;
+    font-size: 25px;
+    color: gray;
+}
+
+.comment-icon-container {
+    position: relative;
+}
+
+.comments-count {
+    position: absolute;
+    top: -2px;
+    right: 5px;
+    font-size: 10px;
+}
+
+span.empty-span {
+    display: block;
+    margin: 15px 0;
+}
+
+.cta-container {
+    height: 73px;
+    margin: 30px 0;
+}
+
+.cta-container span {
+    display: block;
+    text-align: center;
+    font-size: 10px;
 }
