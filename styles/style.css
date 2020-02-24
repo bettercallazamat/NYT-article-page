@@ -80,7 +80,7 @@ nav img {
     cursor: pointer;
 }
 
-/* Article */
+/* Main section */
 
 article {
     margin-top: 41px;
@@ -101,6 +101,8 @@ article h1 {
     font-size: 40px;
     height: 96px;
 }
+
+/* Article's main image */
 
 article figure {
     margin: auto;
@@ -123,6 +125,8 @@ article figure figcaption{
     font-size: 13px;
     color: #888;
 }
+
+/* First Section */
 
 #first-section {
     width: 600px;
@@ -205,6 +209,8 @@ span.empty-span {
     margin: 15px 0;
 }
 
+/* CTA Container */
+
 .cta-container {
     height: 70px;
     margin: 30px 0;
@@ -243,4 +249,28 @@ span.empty-span {
     color: rgb(50, 104, 145);
     text-decoration: none;
     cursor: pointer;
+}
+
+/* Editors' pick */
+
+#editors-pick-container {
+    width: 210px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.editors-pick-article {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.editors-pick-article img {
+    width: 75px;
+    height: 75px;
+}
+
+.editors-pick-article a {
+
 }
