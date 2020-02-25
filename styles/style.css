@@ -524,6 +524,29 @@ aside {
 #suggested-articles .most-popular-articles a {
     padding: 18px 0;
     border-top: 1px solid rgb(226, 226, 226);
+}
 
+/* Main footer */
+
+#main-footer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+#main-footer img {
+    width: 184px;
+    height: 44px;
+    grid-column: 1 / 6;
+    align-self: center;
+}
+
+#home-page-link {
+    grid-column: 6;
+    align-self: center;
+}
+
+#main-footer .footer-columns a {
+    text-transform: capitalize;
+    display: block;
 }
 
