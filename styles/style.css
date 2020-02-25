@@ -33,6 +33,20 @@
     font-style: italic;
 }
 
+@font-face { 
+    font-family: 'NYTCheltenham';
+    src: url('../fonts/cheltenham-normal-400.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: 'NYTCheltenham';
+    src: url('../fonts/cheltenham-normal-500.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
 /* Header */
 
 header {
@@ -442,4 +456,66 @@ aside {
 
 /* Suggested articles */
 
+#suggested-articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1.1fr;
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: 45px auto 0;
+    padding: 25px 30px 0;
+}
+
+#suggested-articles h3 {
+    grid-column: 1 / 4;
+    font-family: "NYTFranklin";
+    font-weight: 600;
+    font-size: 17px;
+    padding-top: 17px;
+    border-top: 1px solid black;
+}
+
+#suggested-articles img {
+    width: 100%;
+}
+
+#suggested-articles a {
+    display: block;
+    text-decoration: none;
+}
+
+#suggested-articles h3:last-of-type {
+    grid-row: 1;
+    grid-column: 4;
+}
+
+.most-popular-articles {
+    grid-column: 4;
+    grid-row: 2 / 6;
+}
+
+#suggested-articles p,
+#suggested-articles a {
+    font-family: "NYTCheltenham";
+}
+
+#suggested-articles p {
+    font-size: 10px;
+    text-align: right;
+    color: #999;
+    padding: 5px 0;
+}
+
+#suggested-articles a {
+    font-size: 18px;
+    color: #121212;
+    padding: 5px 0;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+#suggested-articles time {
+    font-size: 12px;
+    color: #999999;
+    font-family: "NYTFranklin";
+}
 
