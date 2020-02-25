@@ -110,6 +110,11 @@ article h1 {
     color: #121212;
 }
 
+article h2 {
+    padding: 18px 0;
+    font-family: 'NYTImperial-600', helvetica, arial, sans-serif;
+}
+
 /* Article's main image */
 
 article figure {
@@ -212,8 +217,7 @@ article figure figcaption{
     font-size: 10px;
 }
 
-span.empty-span {
-    display: block;
+div.empty-space {
     margin: 15px 0;
 }
 
@@ -261,6 +265,12 @@ span.empty-span {
 
 /* Editors' pick */
 
+aside {
+    position: absolute;
+    top: 200vh;
+    right: 7vw;
+}
+
 #editors-pick-container {
     width: 210px;
     display: flex;
@@ -296,16 +306,24 @@ span.empty-span {
     margin-right: 5px;
 }
 
-aside {
-    position: absolute;
-    top: 200vh;
-    right: 7vw;
+/* Second section */
+
+#second-section {
+    margin: 0 auto;
+    width: 945px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
-.some-div {
-    display: block;
-    background: blue;
-    height: 100vh;
-    width: 100wh;
+#second-section h2, #second-section p {
+    grid-column: 1/5;
 }
+
+.grid-item img {
+    width: 100%;
+}
+
+
+
+
 
