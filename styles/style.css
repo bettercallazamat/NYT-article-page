@@ -488,18 +488,13 @@ aside {
     grid-column: 4;
 }
 
-.most-popular-articles {
-    grid-column: 4;
-    grid-row: 2 / 6;
-}
-
 #suggested-articles p,
 #suggested-articles a {
     font-family: "NYTCheltenham";
 }
 
 #suggested-articles p {
-    font-size: 10px;
+    font-size: 11px;
     text-align: right;
     color: #999;
     padding: 5px 0;
@@ -517,5 +512,18 @@ aside {
     font-size: 12px;
     color: #999999;
     font-family: "NYTFranklin";
+}
+
+/* Most popular articles */
+
+.most-popular-articles {
+    grid-column: 4;
+    grid-row: 2 / 6;
+}
+
+#suggested-articles .most-popular-articles a {
+    padding: 18px 0;
+    border-top: 1px solid rgb(226, 226, 226);
+
 }
 
