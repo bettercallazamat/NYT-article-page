@@ -5,26 +5,32 @@
 @font-face { 
     font-family: 'NYTFranklin';
     src: url('../fonts/franklin-normal-600.ttf');
+    font-weight: 600;
 }
 
 @font-face { 
-    font-family: 'NYTImperial-500';
+    font-family: 'NYTFranklin';
+    src: url('../fonts/franklin-normal-300.ttf');
+    font-weight: 300;
+}
+
+
+@font-face { 
+    font-family: 'NYTImperial';
     src: url('../fonts/imperial-normal-500.ttf');
+    font-weight: 500;
 }
 
 @font-face { 
-    font-family: 'NYTImperial-600';
+    font-family: 'NYTImperial';
     src: url('../fonts/imperial-normal-600.ttf');
+    font-weight: 600;
 }
 
 @font-face { 
-    font-family: 'Imperial BT';
-    src: url('../fonts/imperial.ttf');
-}
-
-@font-face { 
-    font-family: 'NYTCheltenham-italic-500';
+    font-family: 'NYTCheltenham';
     src: url('../fonts/cheltenham-italic-500.ttf');
+    font-style: italic;
 }
 
 /* Header */
@@ -90,7 +96,8 @@ nav img {
 
 article {
     margin-top: 41px;
-    font-family: 'NYTImperial-500', helvetica, arial, sans-serif;
+    font-family: 'NYTImperial', helvetica, arial, sans-serif;
+    font-weight: 500;
     font-size: 14px;
     color: #666;
 }
@@ -106,13 +113,15 @@ article h1 {
     flex-wrap: wrap;
     font-size: 40px;
     height: 96px;
-    font-family: "NYTCheltenham-italic-500", Georgia;
+    font-family: "NYTCheltenham", Georgia;
+    font-style: italic;
     color: #121212;
 }
 
 article h2 {
     padding: 18px 0;
-    font-family: 'NYTImperial-600', helvetica, arial, sans-serif;
+    font-family: 'NYTImperial', helvetica, arial, sans-serif;
+    font-weight: 600;
 }
 
 /* Article's main image */
@@ -313,15 +322,60 @@ aside {
     width: 945px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
 }
 
-#second-section h2, #second-section p {
+#second-section h2 {
+    grid-column: 1/5;
+    color: black;
+    font-size: 20px;
+    font-family: "NYTImperial";
+    font-weight: 600;
+    padding: 8px 0;
+}
+
+#second-section p {
     grid-column: 1/5;
 }
 
 .grid-item img {
     width: 100%;
 }
+
+.grid-item p {
+    line-height: 17px;
+    font-size: 13px;
+    color: black;
+    font-family: "NYTFranklin";
+    font-weight: 300;
+}
+
+.grid-item strong {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#second-section footer p:before {
+    content: '';
+    height: 1px;
+    border-top: 1px solid #333333;
+    width: 5%;
+    padding-bottom: 10px;
+    display: block;
+}
+
+#second-section footer {
+    grid-column: 1 / 5;
+    padding: 20px 0;
+    margin: 20px 0;
+    /* border-top: 1px solid #333333; */
+    color: #333333;
+    font-family: "NYTFranklin";
+    font-weight: 300;
+}
+
+
+
 
 
 
