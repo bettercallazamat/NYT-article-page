@@ -22,6 +22,11 @@
     src: url('../fonts/imperial.ttf');
 }
 
+@font-face { 
+    font-family: 'NYTCheltenham-italic-500';
+    src: url('../fonts/cheltenham-italic-500.ttf');
+}
+
 /* Header */
 
 header {
@@ -100,6 +105,8 @@ article h1 {
     flex-wrap: wrap;
     font-size: 40px;
     height: 96px;
+    font-family: "NYTCheltenham-italic-500", Georgia;
+    color: #121212;
 }
 
 /* Article's main image */
@@ -255,7 +262,6 @@ span.empty-span {
 
 #editors-pick-container {
     width: 210px;
-    background-color: red;
     display: flex;
     flex-direction: column;
 }
@@ -263,14 +269,42 @@ span.empty-span {
 .editors-pick-article {
     display: flex;
     align-items: center;
-    font-size: 14px;
+    font-size: 16px;
+}
+
+#editors-pick-container h4 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    margin-bottom: 10px;
+    color: black;
+}
+
+.editors-pick-article {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.editors-pick-article a {
+    text-decoration: none;
+    color: #333333;
 }
 
 .editors-pick-article img {
     width: 75px;
     height: 75px;
+    margin-right: 5px;
 }
 
-.editors-pick-article a {
-
+aside {
+    position: absolute;
+    top: 200vh;
+    right: 7vw;
 }
+
+.some-div {
+    display: block;
+    background: blue;
+    height: 100vh;
+    width: 100wh;
+}
+
