@@ -79,7 +79,7 @@ nav img {
     align-items: center;
 }
 
-.nav-right button {
+.button-styles {
     font-size: 10px;
     letter-spacing: 0.4px;
     background-color: #567b95;
@@ -181,14 +181,14 @@ article figure figcaption{
     font-size: 14px;
 }
 
-#socials {
+.socials {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 15px;
 }
 
-#socials i {
+.socials i {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -196,19 +196,19 @@ article figure figcaption{
     cursor: pointer; 
 }
 
-#socials i.round {
+.socials i.round {
     border-radius: 50%;
     background-color: #eee;
     width: 25px;
     height: 25px;
 }
 
-#socials i.round:hover {
+.socials i.round:hover {
     background-color: white;
     border: 1px solid #eee;
 }
 
-#socials i.big-icon {
+.socials i.big-icon {
     width: 25px;
     height: 30px;
     font-size: 25px;
@@ -374,6 +374,8 @@ aside {
     font-weight: 300;
 }
 
+/* Third section */
+
 #third-section {
     width: 600px;
     margin: 35px auto 0 auto;
@@ -407,3 +409,35 @@ aside {
 #third-section img {
     width: 100%;
 }
+
+/* Article's footer */
+
+#article-footer {
+    width: 600px;
+    margin: 20px auto;
+    font-size: 12px;
+    font-family: 'NYTFranklin';
+    color: #333;
+    line-height: 15px;
+}
+
+#article-footer p a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#footer-socials {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+#footer-socials button {
+    margin: 0;
+    padding: 5px 90px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #ececec;
+}
+
+
