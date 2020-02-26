@@ -535,7 +535,11 @@ aside {
   padding: 0 30px 9px;
   font-family: "NYTFranklin";
   font-weight: 300;
+} 
+
+#top-border {
   border-top: 3px double #e2e2e2;
+  grid-column: 1 / 7;
 }
 
 #main-footer img {
