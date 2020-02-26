@@ -90,6 +90,10 @@ nav img {
   align-items: center;
 }
 
+i.nav-user-icon {
+  display: none;
+}
+
 .button-styles {
   font-size: 10px;
   letter-spacing: 0.4px;
@@ -101,6 +105,20 @@ nav img {
   font-weight: bold;
   margin-left: 7px;
   cursor: pointer;
+}
+
+#login-links {
+  font-size: 10px;
+  font-family: "NYTFranklin", Helvetica, Arial, sans-serif;
+  color: #999;
+  float: right;
+  display: none;
+}
+
+#login-links a {
+  font-family: "NYTFranklin", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #326891;
 }
 
 /* Main section */
