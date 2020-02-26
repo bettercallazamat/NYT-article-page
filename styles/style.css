@@ -498,7 +498,7 @@ aside {
   font-weight: 500;
 }
 
-#suggested-articles time {
+#suggested-articles .date {
   font-size: 12px;
   color: #999;
   font-family: "NYTFranklin", sans-serif;
