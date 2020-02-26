@@ -325,7 +325,7 @@ aside {
   color: #333;
 }
 
-.editors-pick-article a:hover {
+aside a:hover {
   text-decoration: underline;
 }
 
@@ -446,7 +446,7 @@ aside {
   cursor: pointer;
 }
 
-.article-footer p a:hover {
+.article-footer a:hover {
   text-decoration: none;
 }
 
@@ -526,7 +526,7 @@ aside {
   font-weight: 500;
 }
 
-.suggested-articles .suggested-article a:hover {
+.suggested-articles a:hover {
   color: #666;
 }
 
@@ -555,7 +555,7 @@ aside {
   font-weight: 500;
 }
 
-.suggested-articles .most-popular-articles a:hover {
+.most-popular-articles a:hover {
   color: #666;
 }
 
