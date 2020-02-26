@@ -305,8 +305,8 @@ div.empty-space {
 
 aside {
   position: absolute;
-  top: 200vh;
-  right: 7vw;
+  top: 1800px;
+  left: calc(100% - 280px);
 }
 
 #editors-pick-container {
