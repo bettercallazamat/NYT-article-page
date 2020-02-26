@@ -124,7 +124,7 @@ article h1 {
   flex-wrap: wrap;
   font-size: 40px;
   height: 96px;
-  font-family: "NYTCheltenham", Georgia, sans-serif;;
+  font-family: "NYTCheltenham", Georgia, sans-serif;
   font-style: italic;
   color: #121212;
 }
@@ -301,6 +301,8 @@ aside {
   display: flex;
   align-items: center;
   font-size: 16px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 #editors-pick-container h4 {
@@ -308,11 +310,6 @@ aside {
   border-bottom: 1px solid rgb(226, 226, 226);
   margin-bottom: 10px;
   color: black;
-}
-
-.editors-pick-article {
-  padding-bottom: 10px;
-  margin-bottom: 10px;
 }
 
 .editors-pick-article a {
@@ -340,7 +337,7 @@ aside {
   grid-column: 1/5;
   color: black;
   font-size: 20px;
-  font-family: "NYTImperial", sans-serif;;
+  font-family: "NYTImperial", sans-serif;
   font-weight: 600;
   padding: 8px 0;
 }
@@ -474,11 +471,6 @@ aside {
   width: 100%;
 }
 
-#suggested-articles a {
-  display: block;
-  text-decoration: none;
-}
-
 #suggested-articles h3:last-of-type {
   grid-row: 1;
   grid-column: 4;
@@ -497,6 +489,8 @@ aside {
 }
 
 #suggested-articles a {
+  display: block;
+  text-decoration: none;
   font-size: 18px;
   color: #121212;
   padding: 5px 0;
