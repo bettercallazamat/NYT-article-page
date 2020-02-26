@@ -226,6 +226,10 @@ article figure figcaption {
   color: gray;
 }
 
+.socials i.big-icon:hover {
+  color: rgb(204, 204, 204);
+}
+
 .comment-icon-container {
   position: relative;
 }
@@ -317,10 +321,15 @@ aside {
   color: #333;
 }
 
+.editors-pick-article a:hover {
+  text-decoration: underline;
+}
+
 .editors-pick-article img {
   width: 75px;
   height: 75px;
   margin-right: 5px;
+  cursor: pointer;
 }
 
 /* Second section */
@@ -433,6 +442,10 @@ aside {
   cursor: pointer;
 }
 
+.article-footer p a:hover {
+  text-decoration: none;
+}
+
 #footer-socials {
   display: flex;
   justify-content: space-between;
@@ -445,6 +458,11 @@ aside {
   font-size: 13px;
   font-weight: 700;
   color: #ececec;
+}
+
+#footer-socials button:hover {
+  background-color: #326891;
+  transition: 0.7s;
 }
 
 /* Suggested articles */
@@ -465,10 +483,16 @@ aside {
   font-size: 17px;
   padding-top: 17px;
   border-top: 1px solid black;
+  cursor: pointer;
+}
+
+.suggested-articles h3:hover {
+  text-decoration: underline;
 }
 
 .suggested-articles img {
   width: 100%;
+  cursor: pointer;
 }
 
 .suggested-articles h3:last-of-type {
@@ -498,6 +522,10 @@ aside {
   font-weight: 500;
 }
 
+.suggested-articles .suggested-article a:hover {
+  color: #666;
+}
+
 .suggested-articles .date {
   font-size: 12px;
   color: #999;
@@ -514,6 +542,17 @@ aside {
 .suggested-articles .most-popular-articles a {
   padding: 18px 0;
   border-top: 1px solid rgb(226, 226, 226);
+  display: block;
+  text-decoration: none;
+  font-family: "NYTCheltenham", sans-serif;
+  font-size: 19px;
+  color: #121212;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.suggested-articles .most-popular-articles a:hover {
+  color: #666;
 }
 
 /* Main footer */
@@ -538,7 +577,7 @@ aside {
   height: 44px;
   grid-column: 1 / 6;
   align-self: center;
-  margin-left: -8px;
+  margin: 5px 0 10px -8px;
 }
 
 #home-page-link {
@@ -561,6 +600,10 @@ aside {
   line-height: 23px;
 }
 
+.main-footer a:hover {
+  text-decoration: underline;
+}
+
 .main-footer h4 {
   font-size: 13px;
   padding-bottom: 5px;
@@ -575,7 +618,7 @@ aside {
   font-size: 11px;
 }
 
-a.subscribe-main-link {
+footer .footer-columns a.subscribe-main-link {
   font-size: 16px;
   font-weight: 600;
   line-height: 29px;
@@ -616,6 +659,7 @@ a.subscribe-main-link {
   z-index: 1;
   font-family: "NYTFranklin", sans-serif;
   text-align: center;
+  cursor: pointer;
 }
 
 .sticky-footer-bot p {
