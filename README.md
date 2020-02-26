@@ -5,7 +5,11 @@
 ## Built With
 
 - HMTL5
-- CSS
+- CSS3
+
+## Live demo
+
+[Check it out](https://nyt-article.netlify.com/)💻
 
 ## Getting Started
 
