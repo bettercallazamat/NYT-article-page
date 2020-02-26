@@ -1,6 +1,4 @@
-* {
-  /* font-family: 'NYTFranklin', helvetica, arial, sans-serif; */
-}
+/* Fonts imports */
 
 @font-face {
   font-family: "NYTFranklin";
@@ -62,7 +60,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 15px 0px;
+  padding: 0 15px 0;
 }
 
 #nav-link {
